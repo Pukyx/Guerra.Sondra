@@ -1,4 +1,4 @@
-const firebaseConfig = {
+export const firebaseConfig = {
     apiKey: "AIzaSyAQM3_pITM6mGMAivnSGjpkmXEEyZ8nXQA",
     authDomain: "eva3sondra.firebaseapp.com",
     projectId: "eva3sondra",
@@ -8,3 +8,5 @@ const firebaseConfig = {
   };
 
   //credenciales firebase "proyecto: eva3"
+
+  //faltaba exportar las credenciales para que firebase no diera error
